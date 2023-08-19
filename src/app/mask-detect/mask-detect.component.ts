@@ -59,7 +59,7 @@ export class MaskDetectComponent implements OnInit, OnDestroy {
     if (predition.boxes && predition.canvas) {
       const ctx = predition.canvas.getContext('2d');
       if (predition.boxes && ctx) {
-        const classes = ['Without Mask', 'With Mask', 'Mask Weared Incorrect']
+        const classes = [ 'With Mask', 'Mask Weared Incorrect','Without Mask',]
         predition.boxes.slice(0, 1).forEach(bbox => {
           const box = new Array<Boxes>();
           box.push(bbox)
