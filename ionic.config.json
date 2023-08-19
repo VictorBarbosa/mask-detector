@@ -1,0 +1,7 @@
+{
+  "name": "mask-detector",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
