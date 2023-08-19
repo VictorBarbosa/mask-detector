@@ -1,0 +1,15 @@
+description: Ultralytics best model trained on ./config.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2023-08-15T07:36:38.843539'
+version: 8.0.154
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 224
+- 224
+names:
+  0: Without_Mask
+  1: With_Mask
+  2: Mask_Weared_Incorrect

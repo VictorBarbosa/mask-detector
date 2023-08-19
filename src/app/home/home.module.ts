@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { MaskDetectComponent } from '../mask-detect/mask-detect.component';
+import { CanvasVideoComponent } from '../components/canvas-video/canvas-video.component';
 
 
 @NgModule({
@@ -14,6 +16,9 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage,
+    CanvasVideoComponent,
+    MaskDetectComponent],
+
 })
-export class HomePageModule {}
+export class HomePageModule { }

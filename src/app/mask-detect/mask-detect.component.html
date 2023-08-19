@@ -1,0 +1,8 @@
+<div>
+  <h2>
+    *** {{msg}} ***
+  </h2>
+  <canvas #canvasDisplay width="640" height="480"></canvas>
+  <app-canvas-video [model]="model" (predictionReturn)="predictionReturn($event)" [canvas]="canvasDisplay"
+    [interetionPerSec]="50" [autoplay]="true"></app-canvas-video>
+</div>
